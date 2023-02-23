@@ -9,3 +9,126 @@ a{
 ul{
     list-style: none;
 }
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+header{
+    padding: 16px 0 15px;
+    position: relative;
+}
+.container{
+    max-width: 1064px;
+    margin: auto;
+    position: relative;
+}
+header .container .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+}
+header nav ul li{
+    margin-right: 26px;
+}
+header nav ul li a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+header .container .icon_head{
+    column-gap: 10px;
+}
+header .container .icon_head li:last-of-type{
+    width: 15px;
+}
+/* main_banner */
+.main_banner{
+    background-color: #F0EFEB;
+    padding: 90px 0;
+}
+.main_banner .container{
+    max-width: 1064px;
+    margin: auto;
+    position: relative;
+}
+.main_banner .container h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    max-width: 534px;
+    margin-bottom: 42px;
+}
+.main_banner .container p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    max-width: 481px;
+    margin-bottom: 26px;
+}
+.button{
+    background-color: #000000;
+    border-radius: 100px;
+    padding: 8px 23px;
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    max-width: 129px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.main_banner .container img{
+    position: absolute;
+    top: -81px;
+    right: -128px;
+}
+/* Our_guides */
+.Our_guides{
+    background-color: #E5E5E5;
+    padding: 60px 0 248px;
+}
+.Our_guides .container{
+    max-width: 1064px;
+    margin: auto;
+}
+.Our_guides .container h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.Our_guides .container p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    max-width: 632px;
+    margin-bottom: 47px;
+}
+.Our_guides .container p:last-child{
+    margin-bottom: 41px;
+}
